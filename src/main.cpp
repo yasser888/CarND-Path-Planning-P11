@@ -16,9 +16,8 @@
 #define LANE_WIDTH 4.0
 #define MPH_TO_MPS 0.44704
 #define TIME_BETWEEN_WAYPOINTS 0.02
-#define MAX_VELOCITY_IN_MPH 45
-//	#define MIN_VELOCITY_IN_MPH 30
-#define MAX_ACCELERATION 7 //in mps^2 kept it 7 to have some before max allowed value in simulator is 10mps^2
+#define MAX_VELOCITY_IN_MPH 47
+#define MAX_ACCELERATION 7 
 #define FRONT_CLEAR_DISTANCE_FOR_LANE_CHANGE 30
 #define REAR_CLEAR_DISTANCE_FOR_LANE_CHANGE 10
 #define BUFFER_DISTANCE_TO_FRONT_VEHICLE 30

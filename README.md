@@ -1,6 +1,28 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
 
+First we have defined constana values to use:
+
+ 1- NUM_OF_LANES 3 : Number of lane on each side of the road which is 3 here.
+
+ 2- LANE_WIDTH 4.0 : Lane of each lane in width is 4m
+
+ 3- MPH_TO_MPS 0.44704 : Main car's speed provided by the simulator is in MPH. constant is used to convert it into Meters per seconds as position of the car and other distance are given in meters
+
+ 4- TIME_BETWEEN_WAYPOINTS 0.02 : Simulator travel a distance between 2 consecutive waypoints in 0.02 seconds
+
+ 5- MAX_VELOCITY_IN_MPH 47 : Maximum allowed Speed is 50 MPH in simulator , but to have some buffer I have set it to 47 MPH
+
+ 6- MAX_ACCELERATION 7 : Max allowed acceleration is 10 mps^2 kept it 7 mps^2 to have some buffer.
+
+ 7- FRONT_CLEAR_DISTANCE_FOR_LANE_CHANGE 30 : It defines clear distance (without any vehicle) in front of our car, This distance of 30m is used at the time of making lane change decision.
+
+ 8- REAR_CLEAR_DISTANCE_FOR_LANE_CHANGE 10 : It defines clear distance (without any vehicle) in front of our car, This distance of 30m is used at the time of making lane change decision.
+
+ 9- BUFFER_DISTANCE_TO_FRONT_VEHICLE 30 : It defines the distance to keep from a vehicle in front.
+
+10- NUM_WAYPOINTS 50 : Total number of waypoints sent to simulator is 50. which is enough to have smooth trajectory and to cop up with changing postion of surrounding vehicles.
+
 ### Prediction
 Through using the car's state and sensor fusion data, 
 possible collisions are predicted. Frenet coordinates of the surrounding vehicles are used to determine their respective
