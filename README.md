@@ -1,6 +1,10 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
 
+https://youtu.be/lP9r2uGjh_E
+
+[![Watch the video](https://img.youtube.com/vi/lP9r2uGjh_E/0.jpg)](https://youtu.be/lP9r2uGjh_E)
+
 First we have defined constana values to use:
 
  1- NUM_OF_LANES 3 : Number of lane on each side of the road which is 3 here.
